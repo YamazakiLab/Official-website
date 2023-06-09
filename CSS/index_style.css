@@ -1,7 +1,7 @@
-  
+  @charset "UTF-8";
   body {
     margin: 0;
-    overflow-x: hidden; /* ‰¡•ûŒü‚ÌƒXƒNƒ[ƒ‹‚ğ‹Ö~ */
+    overflow-x: hidden; /* æ¨ªæ–¹å‘ã®ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã‚’ç¦æ­¢ */
   }
   
   header {
@@ -28,7 +28,7 @@
   }
   
   nav ul {
-    border-bottom: 1px solid blue; /* Â‚¢‰ºü‚ğ’Ç‰Á */
+    border-bottom: 1px solid blue; /* é’ã„ä¸‹ç·šã‚’è¿½åŠ  */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,12 +48,12 @@
   }
 
   nav ul li a:hover {
-    color: blue; /* ƒJ[ƒ\ƒ‹‚ª‡‚í‚³‚Á‚½‚ÌƒeƒLƒXƒgF */
+    color: blue; /* ã‚«ãƒ¼ã‚½ãƒ«ãŒåˆã‚ã•ã£ãŸæ™‚ã®ãƒ†ã‚­ã‚¹ãƒˆè‰² */
   }
   
   tabs {
     padding: 20px;
-    width: 100%; /* ‰¡•‚ğ100%‚Éİ’è */
+    width: 100%; /* æ¨ªå¹…ã‚’100%ã«è¨­å®š */
   }
 
   main {
@@ -91,17 +91,17 @@
   .image-container {
     display: flex;
     justify-content: center;
-    gap: 50px; /* ‰æ‘œŠÔ‚ÌŠÔŠu */
+    gap: 50px; /* ç”»åƒé–“ã®é–“éš” */
     margin-bottom: 50px;
   }
   
   .image-up {
-    width: 140px; /* ‰æ‘œ‚ÌÅ‘å•‚ğ100%‚Éİ’è */
-    transition: transform 0.3s ease; /* ƒAƒjƒ[ƒVƒ‡ƒ“‚Ìƒgƒ‰ƒ“ƒWƒVƒ‡ƒ“‚ğİ’è */
+    width: 140px; /* ç”»åƒã®æœ€å¤§å¹…ã‚’100%ã«è¨­å®š */
+    transition: transform 0.3s ease; /* ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã®ãƒˆãƒ©ãƒ³ã‚¸ã‚·ãƒ§ãƒ³ã‚’è¨­å®š */
   }
   
   .image-up:hover {
-    transform: scale(1.1); /* ƒzƒo[‚É‰æ‘œ‚ğ1.1”{‚ÉŠg‘å */
+    transform: scale(1.1); /* ãƒ›ãƒãƒ¼æ™‚ã«ç”»åƒã‚’1.1å€ã«æ‹¡å¤§ */
   }
 
   main h2 {
@@ -155,10 +155,10 @@
 
   #newsevent {
     width: 1100px;
-    max-width: 100%; /* ‰¡•‚ª‰æ–Ê•‚ğ’´‚¦‚È‚¢‚æ‚¤‚ÉÅ‘å•‚ğİ’è */
-    height: 300px; /* ƒXƒNƒ[ƒ‹‚Ì‚‚³ */
+    max-width: 100%; /* æ¨ªå¹…ãŒç”»é¢å¹…ã‚’è¶…ãˆãªã„ã‚ˆã†ã«æœ€å¤§å¹…ã‚’è¨­å®š */
+    height: 300px; /* ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®é«˜ã• */
     overflow-y: scroll;
-    margin: 0 auto; /* …•½•ûŒü‚É’†‰›‚É”z’u */
+    margin: 0 auto; /* æ°´å¹³æ–¹å‘ã«ä¸­å¤®ã«é…ç½® */
     margin-bottom: 50px;
   }
 
@@ -178,7 +178,7 @@
     margin-bottom: 50px;
   }
    
-  @media screen and (min-width: 550px) { /* 750pxˆÈã‚Ì‰æ–Ê‚Ì‚İ‰¡•À‚Ñ‚ğ“K—p */
+  @media screen and (min-width: 550px) { /* 750pxä»¥ä¸Šã®ç”»é¢ã®ã¿æ¨ªä¸¦ã³ã‚’é©ç”¨ */
     p.side_text {
       display: inline-block;
       width: 450px;
