@@ -1,3 +1,5 @@
+  @charset "UTF-8";
+
   body {
     margin: 0;　/* 空白 */
     overflow-x: hidden; /* 横方向のスクロールを禁止 */
