@@ -3,7 +3,6 @@
   html,body {
     margin: 0;　/* 空白 */
     overflow-x: hidden; /* 横方向のスクロールを禁止 */
-　　overflow-x: hidden;
   }
   
   header {
