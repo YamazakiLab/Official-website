@@ -1,7 +1,8 @@
-  
+  @charset "UTF-8";
+
   body {
     margin: 0;
-    overflow-x: hidden; /* ‰¡•ûŒü‚ÌƒXƒNƒ[ƒ‹‚ğ‹Ö~ */
+    overflow-x: hidden; /* æ¨ªæ–¹å‘ã®ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã‚’ç¦æ­¢ */
   }
   
   header {
@@ -28,7 +29,7 @@
   }
   
   nav ul {
-    border-bottom: 1px solid blue; /* Â‚¢‰ºü‚ğ’Ç‰Á */
+    border-bottom: 1px solid blue; /* é’ã„ä¸‹ç·šã‚’è¿½åŠ  */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,12 +49,12 @@
   }
 
   nav ul li a:hover {
-    color: blue; /* ƒJ[ƒ\ƒ‹‚ª‡‚í‚³‚Á‚½‚ÌƒeƒLƒXƒgF */
+    color: blue; /* ã‚«ãƒ¼ã‚½ãƒ«ãŒåˆã‚ã•ã£ãŸæ™‚ã®ãƒ†ã‚­ã‚¹ãƒˆè‰² */
   }
   
   tabs {
     padding: 20px;
-    width: 100%; /* ‰¡•‚ğ100%‚Éİ’è */
+    width: 100%; /* æ¨ªå¹…ã‚’100%ã«è¨­å®š */
   }
 
   main {
