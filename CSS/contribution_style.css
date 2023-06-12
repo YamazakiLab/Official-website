@@ -72,6 +72,19 @@ h1 .subtitle {
    font-weight: normal;
 }
 
+main h1 {
+  background: linear-gradient(135deg, #FF0000, #FFFF00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+
+.image-up {
+    width: 100%;
+    max-width: 700px;
+}
+
 .image-up {
     width: 100%;
     max-width: 850px;
